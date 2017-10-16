@@ -1,0 +1,27 @@
+Name of QuantLet: futuresPriceSimulation
+
+
+Published in: -
+
+
+Description: ‘Simulates futures prices based on an  estimated HAR model with an MC simulation and plots volatility structure’
+
+
+Keywords: HAR, MC simulation, realized volatility
+
+
+Keywords[new] : 
+
+
+See also: HARmodels
+
+
+Author: Thijs Benschop
+
+Submitted: Thijs Benschop
+
+
+Datafile: simdata.txt
+
+
+Example : ‘xxx’
