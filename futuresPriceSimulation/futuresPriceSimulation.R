@@ -2,16 +2,8 @@
 rm(list = ls(all = TRUE))
 graphics.off()
 
-## Install and load packages
-libraries = c("e1071", "stats", "forecast", "tseries", "quantmod", "expm", "hydroGOF", "arfima", "fracdiff", "xtable")
-lapply(libraries, function(x) if (!(x %in% installed.packages())) {
-  install.packages(x)
-})
-lapply(libraries, library, quietly = TRUE, character.only = TRUE)
-
 # Set working directory
 setwd("")
-setwd("/Users/thijsbenschop/GitHub/HARRV/futuresPriceSimulation")    # Mac
 
 ##### Simulation of option prices on futures #####
 # Read data

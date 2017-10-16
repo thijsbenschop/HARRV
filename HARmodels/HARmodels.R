@@ -1,7 +1,3 @@
-## Add forecasts for RVw and RVm
-
-## Realized volatility
-
 ## Clear history
 rm(list = ls(all = TRUE))
 graphics.off()
